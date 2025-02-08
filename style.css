@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+  background-image: linear-gradient(to right, red, orange, yellow, green);
+}
+
+#container {
+  width: 100%;
+  height: 65%; /*  Originally -70%  [ 5% less as increase header size ] */
+  background-color: white;
+  display: flex;
+  margin: 0 auto;
+  border: 5px greenyellow solid;
+}
+
+#mynetwork {
+  width: 50%;
+  height: 100%; /* 100% of container height */
+  border: 1px solid lightgray;
+}
+
+#container2 {
+  width: 50%;
+  height: 100%; /* 100% of container height */
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#mynetwork2 {
+  /*NO USE*/
+  width: 100%;
+  height: 100%;
+}
+
+#generate-graph {
+  margin: auto;
+  display: block;
+}
+
+#solve {
+  margin: auto;
+  display: block;
+}
+
+.button :hover {
+  transform: scale(1.5);
+}
+
+/*====================== FOOTER STYLE ================== */
+.MyFooter {
+  border-top: 0px solid #333;
+  padding: 1.2rem 1rem;
+}
+
+.social {
+  text-align: center;
+  align-items: center;
+  color: black; /* #757575; */
+}
+
+#heading5 {
+  margin-bottom: 3px;
+}
+
+#thanks {
+  color: black; /* #757575; */
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: small;
+  font-weight: bold;
+}

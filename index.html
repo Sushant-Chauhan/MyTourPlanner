@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Planner Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5548f5ed00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-light"
+      style="
+        font-size: 25px;
+        font-family: sans-serif;
+        background-color: whitesmoke;
+      "
+    >
+      <img
+        src="https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/c7/81/61/c78161e9-4124-e94e-9fe1-3aa9ef3464e1/source/512x512bb.jpg"
+        width="65px"
+        height="65px"
+        class="d-inline-block align-top"
+        alt=""
+      />
+      <h6 style="font-weight: bold;">MY TOUR PLANNER PROJECT</h6>
+    </nav>
+    <div id="container">
+      <div id="mynetwork"></div>
+      <div id="container2">
+        <span
+          id="temptext2"
+          style="
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: medium;
+          "
+        >
+        </span>
+        <span
+          id="temptext"
+          style="width: 100%; text-align: center; font-size: medium;"
+        >
+          Red link represents bus travel time :
+          <i class="fa fa-bus" aria-hidden="true" style="color: orange;"></i
+          ><br />
+          Green link represents flight travel time :
+          <i class="fa fa-plane" aria-hidden="true" style="color: green;"></i
+          ><br />
+          Click on solve to get Solution !!
+        </span>
+        <div id="mynetwork2" style="display: none;"></div>
+      </div>
+    </div>
+
+    <div>
+      <br />
+      <button type="button" class="btn btn-danger" id="generate-graph">
+        Get New Problem
+      </button>
+      <br />
+      <button type="button" class="btn btn-success" id="solve">Solve</button>
+    </div>
+
+    <!-- ==========  MyFooter_End  ===================-->
+    <div class="MyFooter">
+      <div class="social">
+        <br />
+        <h5 id="heading3">Connect with me &#128587;</h5>
+        <a
+          href="https://www.linkedin.com/in/sushant-chauhan-2017711b3/"
+          target="_blank"
+          style="width: 50px; height: 50px;"
+          ><img
+            src="images\linkedin.gif"
+            style="width: 50px; height: 50px;"
+            alt=""
+        /></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><img
+            src="images\youtube.gif"
+            alt=""
+            style="width: 50px; height: 50px;"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="images\whatsapp.gif"
+            alt=""
+            style="width: 50px; height: 50px;"
+        /></a>
+        <a
+          href="https://github.com/Sushant-Chauhan?tab=overview&from=2021-09-01&to=2021-09-30"
+          target="_blank"
+          ><img
+            src="images\github.gif"
+            alt=""
+            style="width: 50px; height: 50px;"
+        /></a>
+      </div>
+
+      <p id="thanks">
+        Made With Love By : SUSHANT CHAUHAN &#128150; <br />
+        &copy; Copyright 2022
+      </p>
+    </div>
+    <!--MyFooter_End-->
+  </body>
+</html>
